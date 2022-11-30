@@ -18,22 +18,23 @@
     <!--Верхня лінія-->
     <header class="page-header">
         <div class="container">
-            <a href="./index.html" class="logo">Web<span class="logo page--header__logo">Studio</span></a>
+            <a href="./index.html" class="logo">Web<span class="logo page-header__logo">Studio</span></a>
             <nav class="navigation">
                 <ul class="navigation__list list">
-                    <li class="navigation__item"><a class="link navigation__link navigation__link--current" href="./index.html">Студія</a></li>
+                    <li class="navigation__item"><a class="link navigation__link navigation__link--current"
+                            href="./index.html">Студія</a></li>
                     <li class="navigation__item"><a class="link navigation__link" href="./portfolio.html">Портфоліо</a></li>
                     <li class="navigation__item"><a class="link navigation__link" href="#">Контакти</a></li>
                 </ul>
             </nav>
-            <ul class="contact-nav list">
-                <li class="item"><a class="contakt-link link" href="mailto:info@devstudio.com"><svg class="mail-icon"
-                            width="16" height="12">
+            <ul class="navigation__contact list">
+                <li class="navigation__item"><a class="link header__link" href="mailto:info@devstudio.com"><svg
+                            class="mail__icon" width="16" height="12">
                             <use href="./images/icons.svg#icon-envelope"></use>
                         </svg>info@devstudio.com</a>
                 </li>
-                <li class="item"><a class="heder-tel-link" href="tel:+380961111111"><svg class="tel-icon" width="10"
-                            height="16">
+                <li class="navigation__item"><a class="link header__phone" href="tel:+380961111111"><svg class="tel__icon"
+                            width="10" height="16">
                             <use href="./images/icons.svg#icon-smartphone"></use>
                         </svg>+38 096 111 11 11</a></li>
             </ul>
@@ -44,8 +45,8 @@
         <!--Заголовок-->
         <section class="hero">
             <div class="container">
-                <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-                <button class="button-primary button" type="button" data-modal-open>Замовити послугу</button>
+                <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
+                <button class="hero__button" type="button" data-modal-open>Замовити послугу</button>
             </div>
         </section>
         <!--Особливості-->
@@ -54,7 +55,7 @@
                 <h2 class="visually-hidden">Особливості</h2>
                 <ul class="features list">
                     <li class="item">
-                        <div class="features-icon">
+                        <div class="feature-icon">
                             <a href="#" class="social-link link">
                                 <svg class="features-svg" width="70" height="70">
                                     <use href="./images/icons.svg#icon-antenna"></use>
@@ -66,7 +67,7 @@
                         </p>
                     </li>
                     <li class="item">
-                        <div class="features-icon">
+                        <div class="feature-icon">
                             <a href="#" class="social-link link">
                                 <svg class="features-svg" width="70" height="70">
                                     <use href="./images/icons.svg#icon-clock"></use>
@@ -77,7 +78,7 @@
                         <p class="text-main">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
                     </li>
                     <li class="item">
-                        <div class="features-icon">
+                        <div class="feature-icon">
                             <a href="#" class="social-link link">
                                 <svg class="features-svg" width="70" height="70">
                                     <use href="./images/icons.svg#icon-diagram"></use>
@@ -88,7 +89,7 @@
                         <p class="text-main">Так само консультація з широким активом значною мірою зумовлює.</p>
                     </li>
                     <li class="item">
-                        <div class="features-icon">
+                        <div class="feature-icon">
                             <a href="#" class="social-link link">
                                 <svg class="features-svg" width="70" height="70">
                                     <use href="./images/icons.svg#icon-astronaut"></use>
@@ -334,7 +335,7 @@
     <footer class="page-footer">
         <div class="container foter-conect">
             <div>
-                <a href="./index.html" class="logo">Web<span class="logo page--footer__logo">Studio</span></a>
+                <a href="./index.html" class="logo">Web<span class="logo page-footer__logo">Studio</span></a>
                 <address>
                     <ul class="footer-link-end link">
                         <li>
@@ -384,7 +385,7 @@
                 <h3 class="footer-title">Підпишіться на розсилку</h3>
                 <div class="footer-buttons">
                     <label><input name="footer-mail" type="email" class="footer-input" placeholder="E-mail"></label>
-                    <button type="submit" class="button-primary button-footer">Підписатися<svg class="icon-send" width="24"
+                    <button type="submit" class="hero__button button-footer">Підписатися<svg class="icon-send" width="24"
                             height="24">
                             <use href="./images/icons.svg#icon-send"></use>
                         </svg>
@@ -444,7 +445,7 @@
                             <span class="conditions-link">Умови договору</span></a>
                     </label>
                 </div>
-                <button type="submit" class="button-primary button-form">Відправити</button>
+                <button type="submit" class="hero__button button-form">Відправити</button>
             </form>
         </div>
     </div>
