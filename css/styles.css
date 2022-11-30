@@ -46,7 +46,6 @@ body {
   display: block;
   width: 100%;
   height: auto;
-
 }
 
 /*секції*/
@@ -87,8 +86,7 @@ body {
 }
 
 /*логотип*/
-
-.logo-blue {
+.logo {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
@@ -97,39 +95,32 @@ body {
   letter-spacing: 0.03em;
   color: var(--accent-color)
 }
-
-.logo-black {
+.page--header__logo {
   color: var(--accent-black-color)
 }
-
-.logo-white {
+.page--footer__logo {
   margin-bottom: 20px;
   color: var(--primary-white-color)
 }
 
 /*навігація*/
 
-.site-nav {
+.navigation__list {
   display: flex;
   align-items: center;
-}
-
-.site-nav {
+  margin-left: 93px;
   padding-top: 32px;
   padding-bottom: 32px;
-}
 
-.site-nav .item:not(:first-child) {
+}
+.navigation__list .navigation__item:not(:first-child) {
   margin-left: 50px;
 }
 
-.site-nav {
-  margin-left: 93px;
-}
-.site-nav .header-link {
+.navigation__list .navigation__link {
   color: var(--title-text-color);
 }
-.site-nav {
+.navigation__list {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
@@ -139,19 +130,19 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
-.site-nav:hover,
-.site-nav:focus {
+.navigation__list:hover,
+.navigation__list:focus {
   color: var(--accent-color);
 
 }
 
-.site-nav .link.current {
+.navigation__list .navigation__link--current {
   color: var(--accent-color);
 }
-.site-nav .item {
+.navigation__list .navigation__item {
   position: relative;
 }
-.current::after {
+.navigation__link--current::after {
   content: "";
   position: absolute;
   display: block;
@@ -171,7 +162,6 @@ a[href="#"] {
 
 .contact-nav {
   display: flex;
-
 }
 
 .contact-nav .item+.item {
