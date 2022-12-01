@@ -585,44 +585,18 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
 
 }
 
-.portfolio-button-first {
-  padding: 6px 25px;
-
-  font-family: 'Roboto';
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
-  letter-spacing: 0.03em;
-  color: var(--title-text-color);
-  cursor: pointer;
-
-  background-color: #F5F4FA;
-  border-radius: 4px;
-  border: none;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-  box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1)
-    }
-
-.portfolio-button-first:hover,
-.portfolio-button-first:focus {
-  background-color: var(--accent-color);
-  color: var(--primary-white-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-}
-
 .portfolio-button {
-
   margin-left: 8px;
   margin-bottom: 34px;
-  border-radius: 4px;
-  border: none;
-  padding: 6px 22px;
+  padding: 6px 25px;
 
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: 0.03em;
+  border-radius: 4px;
+  border: none;
   cursor: pointer;
 
   background-color: var(--primary-button-color);
@@ -630,6 +604,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
+
 .portfolio-button:hover,
 .portfolio-button:focus {
   background-color: var(--accent-color);
@@ -638,8 +613,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-
-.flex-container {
+.project-images {
   display: flex;
   flex-wrap: wrap;
   padding: 0px;
@@ -647,48 +621,38 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
   gap: 30px;
 
 }
-
-.flex-container {
+.project-images img {
+  display: block;
+}
+.project-images {
   flex-basis: calc((100% - 60px)/3)
 }
 
-.flex-text {
-  padding: 20px 24px;
-}
-.flex-img {
+.img-wrapper__card {
   display: block;
 }
-.flex-text {
+.description {
+  padding: 20px 24px;
   border-right: 1px solid var(--border-line-color);
   border-bottom: 1px solid var(--border-line-color);
   border-left: 1px solid var(--border-line-color);
 }
 
-.port-hover {
+.img-wrapper-link {
   display: block;
   transition-property: box-shadow;
   transition-duration: 250ms;  
   transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.port-hover:hover,
-.port-hover:focus {
+.img-wrapper-link:hover,
+.img-wrapper-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
     0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-.section-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.8;
-  letter-spacing: 0.03em;
-  color: var(--primary-text-color);
 
-}
-.flex-container img {
-  display: block;
-}
-.flex-container .img-wrapper {
+.project-images .img-wrapper {
   position: relative;
   overflow: hidden;
 
@@ -710,13 +674,13 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
-.flex-container .item:hover .portfolio-overlay {
+.project-images__item:hover .portfolio-overlay {
   transform: translateY(0)
 }
 
-/*Заголовки портфоліо*/
+/*текст портфоліо*/
 
-.section-title {
+.description__title {
   margin-bottom: 4px;
 
   font-weight: 700;
@@ -726,9 +690,16 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
   
   color: var(--title-text-color);
 }
+.description__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 
+}
 
-.text-overlay {
+.portfolio-overlay__text {
   padding: 64px 24px;
   font-weight: 400;
   font-size: 18px;
