@@ -361,7 +361,7 @@ a[href="#"] {
 
 /*чим ми займаємося*/
 
-.main-title {
+.section__title {
   margin-bottom: 50px;
 
   font-weight: 700;
@@ -373,7 +373,7 @@ a[href="#"] {
 }
 
 
-.main-title .what {
+.applications {
   padding-top: 0px;
   padding-right: 617px;
   padding-left: 617px;
@@ -381,7 +381,7 @@ a[href="#"] {
 }
 
 
-.images {
+.section__images {
   display: flex;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -389,17 +389,17 @@ a[href="#"] {
 
 }
 
-.images .item {
+.section__item {
   width: calc((100% - 30px)/3);
   margin-left: 30px;
 
 }
 
-.images .item:first-child {
+.section__item:first-child {
   margin-left: 0px;
 }
   
-.images .item {
+.section__item {
   position: relative;
 }
 .label {
@@ -413,7 +413,7 @@ a[href="#"] {
   height: 70px;
   background-color: rgba(47, 48, 58, 0.8);
 }
-.label-text {
+.label__text {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
