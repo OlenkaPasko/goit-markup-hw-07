@@ -1,40 +1,5 @@
 /*Скидання стилів*/
-h1,
-h2,
-h3,
-p,
-ul {
-  margin: 0px;
-  padding: 0px;
-}
 
-.list {
-  list-style: none;
-  padding: 0px;
-  margin: 0px;
-}
-ul {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-:root {
-  --primary-text-color: #757575;
-  --title-text-color: #212121;
-  --accent-color: #2196F3;
-  --active-blue: #188CE8;
-  --accent-black-color: #000000;
-  --primary-white-color: #FFFFFF;
-  --primary-button-color: #F5F4FA;
-  --primary-grey-color: rgba(255, 255, 255, 0.6);
-  --border-line-color: #EEEEEE;
-  --becround-hero-color: #C4C4C4;
-  --icons-grey-color: #AFB1B8;
-  --end-color: rgba(47, 48, 58, 0.4);
-
-}
 
 body {
   background-color: var(--primary-white-color);
