@@ -1,0 +1,27 @@
+.page-header {
+    margin: 0px;
+    border-bottom: 1px solid var(--border-line-color);
+}
+
+.page-header .container {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--accent-color)
+}
+
+.page-header__logo {
+    color: var(--accent-black-color)
+}
+
+.page-footer__logo {
+    margin-bottom: 20px;
+    color: var(--primary-white-color)
+}
