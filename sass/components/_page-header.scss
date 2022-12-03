@@ -1,11 +1,11 @@
 .page-header {
     margin: 0px;
     border-bottom: 1px solid var(--border-line-color);
-}
 
-.page-header .container {
-    display: flex;
-    align-items: center;
+    .container {
+        display: flex;
+        align-items: center;
+    }
 }
 .logo {
     font-family: 'Raleway';
@@ -18,10 +18,8 @@
 }
 
 .page-header__logo {
-    color: var(--accent-black-color)
-}
-
-.page-footer__logo {
-    margin-bottom: 20px;
-    color: var(--primary-white-color)
+    color: var(--accent-black-color) {
+        margin-bottom: 20px;
+        color: var(--primary-white-color)
+    }
 }
