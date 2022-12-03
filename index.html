@@ -435,15 +435,17 @@
                 <label for="user-text" class="modal-form__label">Коментар</label>
                 <textarea name="user-text" id="user-text" placeholder="Введіть текст" class="modal-textarea"></textarea>
                 <div class="modal-form__line check-line">
-                    <input id="checkbox-agree" value="agree" name="checkbox-agree" type="checkbox" class="visually-hidden" />
-                    <label for="checkbox-agree" class="checkbox-agree">
-                        <span class="checkbox-agree__icon-wrapper">
-                            <svg class="checkbox-agree__icon-check" width="16" height="16">
-                                <use href="./images/icons.svg#icon-check"></use>
-                            </svg>
-                        </span>
-                        <p class="text-checkbox">Погоджуюся з розсилкою та приймаю&nbsp</p><a href="#" class="text-checkbox">
-                            <span class="conditions-link">Умови договору</span></a>
+                    <p class="text-checkbox">
+                        <input id="checkbox-agree" value="agree" name="checkbox-agree" type="checkbox" class="visually-hidden" />
+                        <label for="checkbox-agree" class="checkbox-agree">
+                            <span class="checkbox-agree__icon-wrapper">
+                                <svg class="checkbox-agree__icon-check" width="16" height="16">
+                                    <use href="./images/icons.svg#icon-check"></use>
+                                </svg>
+                            </span>
+                            Погоджуюся з розсилкою та приймаю&nbsp;<a href="#" class="text-checkbox">
+                                <span class="conditions-link">Умови договору</span></a>
+                    </p>
                     </label>
                 </div>
                 <button type="submit" class="hero__button button-form">Відправити</button>
