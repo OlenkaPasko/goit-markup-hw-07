@@ -2,7 +2,7 @@
     padding-top: 60px;
     padding-bottom: 60px;
 
-    background: #2F303A;
+    background: var(--footer-background-color);
 }
 
 .footer-nav {
@@ -14,7 +14,7 @@
 .footer-nav__addres {
     margin-bottom: 9px;
 
-    font-family: 'Roboto';
+    font-family: var(--primary-font);
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -27,7 +27,7 @@
 .footer-nav__link {
     margin-bottom: 9px;
 
-    font-family: 'Roboto';
+    font-family: var(--primary-font);
     font-style: normal;
     font-size: 14px;
     line-height: 1.7;
@@ -38,7 +38,7 @@
 
 .footer-nav__tel {
 
-    font-family: 'Roboto';
+    font-family: var(--primary-font);
     font-style: normal;
     font-weight: 400;
     font-size: 14px;

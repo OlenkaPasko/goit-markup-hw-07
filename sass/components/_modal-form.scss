@@ -73,10 +73,6 @@
     pointer-events: none;
 }
 
-.modal-form {
-    padding: 40px;
-}
-
 .text-form {
     margin-bottom: 12px;
     font-weight: 700;
@@ -88,6 +84,9 @@
     color: var(--title-text-color)
 }
 
+.modal-form {
+    padding: 40px;
+}
 .modal-form__line {
     display: block;
     margin-bottom: 10px;
